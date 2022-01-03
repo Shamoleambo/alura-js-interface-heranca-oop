@@ -1,0 +1,20 @@
+{
+  "name": "js-interface-heranca-oop",
+  "version": "1.0.0",
+  "description": "learning js with interfaces and heritage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shamoleambo/js-interface-heranca-oop.git"
+  },
+  "author": "Tiago Gomes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shamoleambo/alura-js-interface-heranca-oop/issues"
+  },
+  "homepage": "https://github.com/Shamoleambo/alura-js-interface-heranca-oop#readme",
+  "type": "module"
+}
