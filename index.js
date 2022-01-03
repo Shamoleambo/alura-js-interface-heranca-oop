@@ -7,5 +7,6 @@ const contaCorrente = new ContaCorrente(cliente, 1001);
 const contaPoupanca = new ContaPoupanca(0, cliente, 1001);
 
 contaCorrente.depositar(100);
+contaCorrente.sacar(50);
 
-console.log(contaCorrente, contaPoupanca);
+console.log(contaCorrente.saldo);
