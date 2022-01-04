@@ -10,12 +10,8 @@ export class Conta {
     this._agencia = agencia;
   }
 
-  sacar(valor) {
-    taxa = 1.1 * valor;
-    if (this._saldo >= valor) {
-      this._saldo -= valor;
-      return valor;
-    }
+  sacar() {
+    throw new Error("Este metodo é abstrato, não deve ser chamado.");
   }
 
   _sacar(valor, taxa) {
